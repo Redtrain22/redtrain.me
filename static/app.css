@@ -1,6 +1,7 @@
 html {
-	background-color: grey;
+	background-color: rgb(51, 51, 51);
 	color: rgb(224, 224, 224);
+	font-family: "Source Code Pro", monospace;
 }
 
 body {
