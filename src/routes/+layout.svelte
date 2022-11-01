@@ -27,6 +27,7 @@
 <slot />
 
 <footer>
+	<p>&copy; Redtrain22 2022</p>
 	<button on:click={() => (enableOneko = !enableOneko)}> {enableOneko ? "Hide" : "Show"} Cat </button>
 </footer>
 
@@ -53,6 +54,17 @@
 
 	footer {
 		align-items: center;
+		display: flex;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: black;
+	}
+
+	footer > p {
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	footer > button {
@@ -63,6 +75,6 @@
 		color: white;
 		text-align: center;
 		font-size: large;
-		padding: 16px;
+		padding: 8px;
 	}
 </style>
