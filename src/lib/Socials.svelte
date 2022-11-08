@@ -18,5 +18,6 @@
 		border-color: white;
 		color: white;
 		font-size: 15pt;
+		font-family: "Source Code Pro", monospace;
 	}
 </style>
